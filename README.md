@@ -10,10 +10,10 @@ Things you may want to cover:
 - first commit, 
 
 To do
-[] Fixt the dateisvalid method
-[] Finish the controller of visit
-[] Create the controller for the formulary
-[] Create the controller for the questions
-[] Create the model for the questions
-[] Create the controller for the Answers
-[] Create the model for the Answers
+- [ ] Fixt the dateisvalid method
+- [ ] Finish the controller of visit
+- [ ] Create the controller for the formulary
+- [ ] Create the controller for the questions
+- [ ] Create the model for the questions
+- [ ] Create the controller for the Answers
+- [ ] Create the model for the Answers
