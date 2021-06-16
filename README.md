@@ -7,18 +7,13 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+- first commit, 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To do
+[] Fixt the dateisvalid method
+[] Finish the controller of visit
+[] Create the controller for the formulary
+[] Create the controller for the questions
+[] Create the model for the questions
+[] Create the controller for the Answers
+[] Create the model for the Answers
