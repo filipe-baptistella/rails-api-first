@@ -2,10 +2,11 @@ class Visit < ApplicationRecord
   belongs_to :user
 
   validates :user_id, presence: true, if: :user_idValid?
-  validates :data, presence: true, if: :DateIsValid?
-  validates :status, presence: true, if: :statusValid?
   validates :checkin_at, presence: true, if: :checkinValid?
   validates :checkout_at, presence: true, if: :checkoutValid?
+  validates :data, presence: true, if: :DateIsValid?
+  validates :status, presence: true, if: :statusValid?
+  
 
   def statusValid? 
     if self.status == "PENDENTE" || self.status == "REALIZANDO" || self.status == "REALIZADA"
@@ -39,7 +40,7 @@ class Visit < ApplicationRecord
 
   def DateIsValid?
     visitdate = self.data 
-    if Date.today < visitdate
+    if Date.today <= visitdate
       return true
     end 
   end
