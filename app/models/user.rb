@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
     has_secure_password
     has_many :visits
+    
     validates :name, presence: true, length: {maximum: 15}
     validates :cpf, presence: true, if: :cpfIsValid?
     validates :password_digest, presence: true, length: {minimum: 8}

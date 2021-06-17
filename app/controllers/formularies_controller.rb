@@ -1,4 +1,6 @@
 class FormulariesController < ApplicationController
+  before_action :authorized
+
         # GET /formularies
   def index
     @formularies = formulary.all

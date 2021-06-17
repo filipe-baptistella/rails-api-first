@@ -8,8 +8,8 @@
 
 To do
 
-- [ ] Create the controller for the questions
-- [ ] Create the model for the questions
+- [x] Create the controller for the questions 
+- [x] Create the model for the questions
 
-- [ ] Create the controller for the Answers
-- [ ] Create the model for the Answers
+- [x] Create the controller for the Answers
+- [x] Create the model for the Answers
